@@ -26,7 +26,7 @@ int Train::getLength() {
             break;
         }
         lenght++;
-        if (!temp->light){
+        if (!temp->light) {
             temp = temp->next;
         } else {
             temp->light = false;
